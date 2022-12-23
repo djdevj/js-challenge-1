@@ -3,39 +3,29 @@ body {
     justify-content: center;
     display: flex;
 }
-
-
-/* Headings */
-
+/* form */
 .box {
-    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: blanchedalmond;
     box-shadow: 10px 10px 100px grey inset;
-    height: 400px;
+    height: 500px;
     width: 800px;
     padding: 5px;
-    
-    
+    border-radius: 200px;
+    margin-top: 60px;
 }
 
 .box h1 {
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     padding-top: 0px;
     text-align: center;
     color: #3c33be;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
-    
-    }
-
-.box h3 {
-    color: #3c33be;
-    font-size: 1.5rem;
-    padding-bottom: 10px;
-
 }
-
-
+/* results section, fonts */
 .input {
     padding: 30px;
     user-select: none;
@@ -46,42 +36,31 @@ body {
     border: 3px solid #3c33be;
     outline: none;
     font-size: 22px;
-    justify-content: center;
-    align-content: center;
-    
-    
-    
-    
+    margin-top: 5px;
+    box-shadow: 10px 10px 50px grey inset;
 }
-
-input::placeholder{
-    font-size: 23px;
+input::placeholder {
+    font-size: 30px;
+    text-align: center;
 } 
+/* generate button */
+.button {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: blanchedalmond;
+    background-color: #4a41be;
+    border-radius: 50px;
+    border: none;
+    margin-top: 20px;
+}
+.label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* checkboxes */
+.chkbox {
+    display: inline-block;
+    justify-content: end;
+    margin: 20px;
 
-    
-    
-
-
-
-/* #password {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	border: none;
-	display: block;
-	width: 100%;
-	padding-top: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-bottom: 85px;
-	font-size: 1.2rem;
-	font-family: 'Courier New', Courier, monospace;
-	font-weight: bold;
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border: 2px dashed #c0c7cf;
-	border-radius: 6px;
-	resize: none;
-	overflow: hidden;
-} */
+}

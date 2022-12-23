@@ -10,10 +10,35 @@
 <body>
     
        <div class="box">
-        <h1>Dev's Pass-Gen</h1>        
-         <input class="input" type="text" name="" placeholder="Your Generated Password" id="password" readonly>
-
-    
+        <h1>Dev's Pass-Gen</h1>
+        <div>
+            <label class="label" for="tentacles">Select number of characters (8-16):</label>
+            <input type="number" id="tentacles" name="tentacles" min="8" max="16">
+        </div>
+        <div class="chkbox">
+            <div>      
+                <input type="checkbox" id="lowercase" name="lowercase">
+                <label class="label" for="lowercase">Lowercase</label>
+            </div> 
+            <div>      
+                <input type="checkbox" id="uppercase" name="uppercase">
+                <label class="label" for="uppercase">Uppercase</label>
+            </div>
+            <div>      
+                <input type="checkbox" id="number" name="number">
+                <label class="label" for="number">Number</label>
+            </div>
+            <div>      
+                <input type="checkbox" id="special character" name="special character">
+                <label class="label" for="special character">Special Character</label>
+            </div>
+        </div>
+        <div>
+            <input class="input" type="text" name="" placeholder="Your Generated Password" id="password" readonly>
+        </div>    
+        <div>
+            <button class="button">Generate Password</button>
+        </div>
     </div>
        
        
