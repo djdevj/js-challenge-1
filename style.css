@@ -22,7 +22,7 @@ body {
     padding-top: 0px;
     text-align: center;
     color: #3c33be;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
 }
 /* results section, fonts */
@@ -52,10 +52,23 @@ input::placeholder {
     background-color: #4a41be;
     border-radius: 50px;
     border: none;
-    margin-top: 20px;
+    margin: 15px;
+    width: 250px;
+    
+    
+}
+.button:hover {
+    background-color: blanchedalmond;
+    color: #3c33be;
+    border: 3px solid;
+    box-shadow: 5px 5px 25px grey inset;
+    border-color: #3c33be;
 }
 .label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: #3c33be;
 }
 /* checkboxes */
 .chkbox {
