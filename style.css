@@ -2,6 +2,7 @@ body {
     background-color: #3c33be;
     justify-content: center;
     display: flex;
+    
 }
 /* form */
 .box {
@@ -11,10 +12,11 @@ body {
     background-color: blanchedalmond;
     box-shadow: 10px 10px 100px grey inset;
     height: 500px;
-    width: 800px;
+    width: 700px;
     padding: 5px;
-    border-radius: 200px;
+   
     margin-top: 60px;
+    
 }
 
 .box h1 {
@@ -22,20 +24,22 @@ body {
     padding-top: 0px;
     text-align: center;
     color: #3c33be;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Muli', sans-serif;
     font-size: 40px;
+        
 }
 /* results section, fonts */
 .input {
     padding: 30px;
     user-select: none;
     height: 50px;
-    width: 400px;
+    width: 450px;
     border-radius: 100px;
     border: none;
     border: 3px solid #3c33be;
     outline: none;
     font-size: 22px;
+    text-align: center;
     margin-top: 5px;
     box-shadow: 10px 10px 50px grey inset;
 }
@@ -46,7 +50,7 @@ input::placeholder {
 /* generate button */
 .button {
     padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Muli', sans-serif;
     font-size: large;
     color: blanchedalmond;
     background-color: #4a41be;
