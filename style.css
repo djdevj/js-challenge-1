@@ -71,6 +71,7 @@ input::placeholder {
     border: thick double blanchedalmond;
     margin: 15px;
     width: 250px;
+    cursor: pointer;
     
     
 }
