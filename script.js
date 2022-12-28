@@ -1,13 +1,33 @@
-// password must be between 8-32 characters with 
-// password options: options should be uppercase, numbers, spec characters
-// form must have selectable options: dropdown box for password length, checkbox for uppercase, numbers, spec characters
-// maybe have checkboxes in grid form to save space
-// letterbox for results: font (Ariel)
-// "generate" clickable button
-// no pop-ups(alerts)
-
-// Select generate password button
-// give them a copy button
-
+//DOM elements
+const tentaclesEl = document.getElementById('tentacles');
+const lowercaseEl = document.getElementById('result');
+const uppercaseEl = document.getElementById('uppercase');
+const numberEl = document.getElementById('number');
+const symbolsEl = document.getElementById('result');
+const resultEl = document.getElementById('result');
+const generateEl = document.getElementById('generate');
+const copyEl = document.getElementById('copy');
 
 
+// place fucntions in object
+const randomFunc = {
+    lower: getRandomLower,
+    upper: getRandomUpper,
+    number: getRandomNumber,
+    symbol: getRandomSymbol
+}
+
+// gen functions
+function getRandomLower() {
+    return String.fromCharCode(Math.floor(Math.random() *26) + 97);
+}
+function getRandomUpper() {
+    return String.fromCharCode(Math.floor(Math.random() *26) + 65);
+}
+function getRandomNumber() {
+    return String.fromCharCode(Math.floor(Math.random() *10) + 48);
+}
+function getRandomSymbol() {
+    const symbols = "!@#$%^&*()";
+    return symbols [Math.floor(Math.random() * symbols.length)];
+}
