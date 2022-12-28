@@ -3,7 +3,7 @@ const lengthEl = document.getElementById('length');
 const lowercaseEl = document.getElementById('result');
 const uppercaseEl = document.getElementById('uppercase');
 const numberEl = document.getElementById('number');
-const symbolsEl = document.getElementById('result');
+const symbolsEl = document.getElementById('symbols');
 const resultEl = document.getElementById('result');
 const generateEl = document.getElementById('generate');
 const copyEl = document.getElementById('copy');
@@ -18,7 +18,7 @@ const randomFunc = {
 }
 
 // make the buttons work:
-// Copy button
+// Copy button listen
 copyEl.addEventListener('click', () => {
 	const textarea = document.createElement('textarea');
 	const password = resultEl.innerText;
@@ -43,7 +43,7 @@ generateEl.addEventListener('click', () => {
     resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, Length);
 });
 // Generate Pass func
-function generatePassword (lower, upper, number, symbol, tentacles) {
+function generatePassword (lower, upper, number, symbol, length) {
     // initialize PW variable (var)
     // filter out unchecked
     // loop over the length of the call gen for each type
