@@ -19,7 +19,7 @@ const randomFunc = {
 
 // make the buttons work:
 // Copy button
-copy.addEventListener('click', () => {
+copyEl.addEventListener('click', () => {
 	const textarea = document.createElement('textarea');
 	const password = resultEl.innerText;
 	
