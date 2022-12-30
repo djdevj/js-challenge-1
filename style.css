@@ -51,8 +51,11 @@ body {
     border: 3px solid #3c33be;
     background-color: blanchedalmond;
     outline: none;
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
+    color: #3c33be;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
     margin-top: 5px;
     box-shadow: 10px 10px 50px grey inset;
 }

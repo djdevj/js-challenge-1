@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-16">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,14 +30,16 @@
                 <label class="label">Number</label>
             </div>
             <div>      
-                <input type="checkbox" id="symbols" checked>
+                <input type="checkbox" id="symbol" checked>
                 <label class="label">Special Character</label>
             </div>
         </div>
         <div>
+            <div class="input">
+                <span id="result">Your Generated Password</span>
+            </div>
             
-            <input class="input" type="text" id="result" name="result" placeholder="Your Generated Password"  readonly>
-           <!-- <input class="input" type="text" name="" placeholder="Your Generated Password" id="result" readonly> -->
+           
         </div>    
         <div>
             <button class="button" id="generate">
