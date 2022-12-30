@@ -8,3 +8,5 @@ Selectable password length added with a hard limit on length<br>
 Display added for easy viewing of password.
 ## Deployment Link
 https://djdevj.github.io/js-challenge-1/
+### Screentshot
+https://github.com/djdevj/js-challenge-1/blob/main/Pics/djdevj.github.io_js-challenge-1_.png
