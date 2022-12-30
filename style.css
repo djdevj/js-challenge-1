@@ -43,20 +43,17 @@ body {
 /* results section, fonts */
 .input {
     padding: 30px;
-    user-select: none;
     height: 50px;
     width: 450px;
     border-radius: 100px;
-    border: none;
     border: 3px solid #3c33be;
     background-color: blanchedalmond;
-    outline: none;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     color: #3c33be;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    margin-top: 5px;
+    font-weight: bold;
+    margin: auto;
     box-shadow: 10px 10px 50px grey inset;
 }
 input::placeholder {
